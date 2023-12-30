@@ -9,4 +9,4 @@ like [mastodon](https://mastodon.social/), [diaspora](https://diasporafoundation
 Posts:
 
 - [ruby-is-for-fun-book](ruby-is-for-fun-book)
-
+- [ruby-codewars-solutions](ruby-codewars-solutions)
