@@ -1,6 +1,6 @@
 # Blog Posts
 
-Blog posts about IT, learning and other related topics by @DanteOnline
+Blog posts about IT, learning and other related topics by [@DanteOnline](https://github.com/DanteOnline)
 
 - [Mission Statement](#mission-statement)
 - [Free and Open Source](#free-and-open-source)
