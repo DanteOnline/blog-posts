@@ -10,4 +10,10 @@ Solved task and Examples from Ruby is for fun Book.
 
 ## Menu
 
-Will be here soon enough
+- [part-1-first-steps](part-1-first-steps)
+    - [first-program](part-1-first-steps/first_program.rb)
+    - [learn-foreign-language](part-1-first-steps/learn_foreign_language.rb)
+    - [exercise-1](part-1-first-steps/exercise-1.rb)
+    - [get-age](part-1-first-steps/get_age.rb)
+    - [task-client-cards](part-1-first-steps/task-client-cards.rb)
+    - [get-age-strings](part-1-first-steps/get_age_strings.rb)
