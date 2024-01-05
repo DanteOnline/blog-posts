@@ -34,7 +34,14 @@ Solved task and Examples from Ruby is for fun Book.
     - [start-rockets](part-2-basics/start_rockets.rb)
     - [task-50-100](part-2-basics/task_50_100.rb)
     - [task-50-100-even-odd](part-2-basics/task_50_100_even_odd.rb)
+    - [task-barbershop](part-2-basics/task_barbershop.rb)
+    - [access-18](part-2-basics/access_18.rb)
+    - [member-of-the-party](part-2-basics/member_of_the_party.rb)
+    - [task-access-credentials](part-2-basics/task_access_credentials.rb)
+    - [task-immigrant](part-2-basics/task_immigrant.rb)
+    - [start-rockets-sleep](part-2-basics/start_rockets_sleep.rb)
+    - [task-random-numbers](part-2-basics/task_random_numbers.rb)
 
 ## Current point
 
-Page 90. Task 3 (Barbershop website)
+Page 109. Guess the number
