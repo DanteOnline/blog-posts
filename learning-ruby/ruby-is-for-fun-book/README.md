@@ -24,7 +24,17 @@ Solved task and Examples from Ruby is for fun Book.
     - [salary-tax](part-2-basics/salary_tax.rb)
     - [how-months-are-you-interpolation](part-2-basics/how_months_are_you_interpolation.rb)
     - [person-data](part-2-basics/person_data.rb)
+    - [task-year-salary](part-2-basics/task_year_salary.rb)
+    - [question-object-id](part-2-basics/question_object_id.rb)
+    - [spartak-champion](part-2-basics/spartak_champion.rb)
+    - [endless-loop](part-2-basics/endless_loop.rb)
+    - [grandmother](part-2-basics/grandmother.rb)
+    - [task-mortgage](part-2-basics/task_mortgage.rb)
+    - [task-credit](part-2-basics/task_credit.rb) ( Not solved :( )
+    - [start-rockets](part-2-basics/start_rockets.rb)
+    - [task-50-100](part-2-basics/task_50_100.rb)
+    - [task-50-100-even-odd](part-2-basics/task_50_100_even_odd.rb)
 
 ## Current point
 
-Page 68. Task 2. Progrm for year salary calculation
+Page 90. Task 3 (Barbershop website)
