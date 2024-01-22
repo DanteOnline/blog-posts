@@ -41,7 +41,14 @@ Solved task and Examples from Ruby is for fun Book.
     - [task-immigrant](part-2-basics/task_immigrant.rb)
     - [start-rockets-sleep](part-2-basics/start_rockets_sleep.rb)
     - [task-random-numbers](part-2-basics/task_random_numbers.rb)
+    - [guess-the-number](part-2-basics/guess_the_number.rb)
+    - [task-guess-the-number](part-2-basics/task_guess_the_number.rb)
+- [part-3-basics](part-3-time-for-fun)
+    - [task-ternary-operator](part-3-time-for-fun/task_ternary_operator.rb)
+    - [formatting-hard-drive](part-3-time-for-fun/formatting_hard_drive.rb)
+    - [get-number](part-3-time-for-fun/get_number.rb)
+    - [task-show-password](part-3-time-for-fun/task_show_password.rb)
 
 ## Current point
 
-Page 109. Guess the number
+Page 119. Judgement Day
