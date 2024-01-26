@@ -48,7 +48,14 @@ Solved task and Examples from Ruby is for fun Book.
     - [formatting-hard-drive](part-3-time-for-fun/formatting_hard_drive.rb)
     - [get-number](part-3-time-for-fun/get_number.rb)
     - [task-show-password](part-3-time-for-fun/task_show_password.rb)
-
+    - [judgement-day](part-3-time-for-fun/judgement_day.rb)
+    - [task-judgement-day-victory](part-3-time-for-fun/task_judgement_day_victory.rb)
+    - [task-judgement-day-case](part-3-time-for-fun/task_judgement_day_case.rb)
+    - [task-judgement-day-new](part-3-time-for-fun/task_judgement_day_new.rb)
+    - [task-judgement-day-events](part-3-time-for-fun/task_judgement_day_events.rb)
+    - [one-armed-bandit](part-3-time-for-fun/one_armed_bandit.rb)
+    - [task-one-armed-bandit-sleep](part-3-time-for-fun/task_one_armed_bandit_sleep.rb)
+    - [task-one-armed-bandit-conditions](part-3-time-for-fun/task_one_armed_bandit_conditions.rb)
 ## Current point
 
-Page 119. Judgement Day
+Page 136. Arrays
