@@ -56,6 +56,13 @@ Solved task and Examples from Ruby is for fun Book.
     - [one-armed-bandit](part-3-time-for-fun/one_armed_bandit.rb)
     - [task-one-armed-bandit-sleep](part-3-time-for-fun/task_one_armed_bandit_sleep.rb)
     - [task-one-armed-bandit-conditions](part-3-time-for-fun/task_one_armed_bandit_conditions.rb)
+    - [arrays-each](part-3-time-for-fun/arrays_each.rb)
+    - [note-book](part-3-time-for-fun/note_book.rb)
+    - [task-robot-battle](part-3-time-for-fun/task_robot_battle.rb)
+    - [task-robot-battle-health](part-3-time-for-fun/task_robot_battle_health.rb)
+    - [task-random-arrays](part-3-time-for-fun/task_random_arrays.rb)
+    - [task-double-array](part-3-time-for-fun/task_double_array.rb)
+    - [task-double-array-upper](part-3-time-for-fun/task_double_array_upper.rb)
 ## Current point
 
-Page 136. Arrays
+Page 179. Multiple avarege arrays
