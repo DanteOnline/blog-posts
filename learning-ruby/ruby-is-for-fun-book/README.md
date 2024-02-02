@@ -69,7 +69,15 @@ Solved task and Examples from Ruby is for fun Book.
     - [task-rock-scissors-paper](part-3-time-for-fun/task_rock_scissors_paper.rb)
     - [task-weight-on-the-moon](part-3-time-for-fun/task_weight_on_the_moon.rb)
     - [task-moon-shop](part-3-time-for-fun/task_moon_shop.rb)
+    - [task-shopping-cart](part-3-time-for-fun/task_shopping_cart.rb)
+    - [task-application-hash](part-3-time-for-fun/task_application_hash.rb)
+    - [task-application-hash-output](part-3-time-for-fun/task_application_hash_output.rb)
+    - [english-russian-dictionary](part-3-time-for-fun/english_russian_dictionary.rb)
+    - [task-english-russian-dictionary](part-3-time-for-fun/task_english_russian_dictionary.rb)
+    - [task-contacts](part-3-time-for-fun/task_contacts.rb)
+    - [frequency-analisis](part-3-time-for-fun/frequency_analisis.rb)
+    - [task-letters-frequency-analisis](part-3-time-for-fun/task_letters_frequency_analisis.rb)
 
 ## Current point
 
-Page 204. Other objects as values
+Page 231. Task Rocket launching
