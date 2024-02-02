@@ -63,6 +63,13 @@ Solved task and Examples from Ruby is for fun Book.
     - [task-random-arrays](part-3-time-for-fun/task_random_arrays.rb)
     - [task-double-array](part-3-time-for-fun/task_double_array.rb)
     - [task-double-array-upper](part-3-time-for-fun/task_double_array_upper.rb)
+    - [task-multy-dimention-array](part-3-time-for-fun/task_multy_dimention_array.rb)
+    - [task-even-elements-in-array](part-3-time-for-fun/task_even_elements_in_array.rb)
+    - [task-array-slices](part-3-time-for-fun/task_array_slices.rb)
+    - [task-rock-scissors-paper](part-3-time-for-fun/task_rock_scissors_paper.rb)
+    - [task-weight-on-the-moon](part-3-time-for-fun/task_weight_on_the_moon.rb)
+    - [task-moon-shop](part-3-time-for-fun/task_moon_shop.rb)
+
 ## Current point
 
-Page 179. Multiple avarege arrays
+Page 204. Other objects as values
