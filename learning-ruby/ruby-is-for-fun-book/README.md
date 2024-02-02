@@ -77,7 +77,8 @@ Solved task and Examples from Ruby is for fun Book.
     - [task-contacts](part-3-time-for-fun/task_contacts.rb)
     - [frequency-analisis](part-3-time-for-fun/frequency_analisis.rb)
     - [task-letters-frequency-analisis](part-3-time-for-fun/task_letters_frequency_analisis.rb)
+    - [task-rocket-launching](part-3-time-for-fun/task_rocket_launching.rb)
 
 ## Current point
 
-Page 231. Task Rocket launching
+Page 232. HashSet
