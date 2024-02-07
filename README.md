@@ -66,8 +66,8 @@ Whether you're a reader, contributor, or both, we invite you to be part of this 
 
 ## Features
 
-I hope this section will grow.
-Now I've started with [learning ruby](learning-ruby)
+- [Learning Ruby](learning-ruby)
+- [Django Admin Optimization](django-admin-optimization)
 
 ## Requirements
 
