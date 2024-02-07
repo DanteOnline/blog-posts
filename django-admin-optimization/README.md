@@ -313,15 +313,15 @@ Let's check our page again `http://127.0.0.1:8000/admin/products/product/40850/c
 
 Okay, now we have 31 queries: 
 
-![Admin Products Screen 6](6_products.png)
+![Admin Products Screen 6](products_6.png)
 
 25 similar queries:
 
-![Admin Products Screen 7](7_products.png)
+![Admin Products Screen 7](products_7.png)
 
 We can see that django send the query again in `__str__` method:
 
-![Admin Products Screen 7](8_products.png)
+![Admin Products Screen 8](products_8.png)
 
 But in this case it happens when data was loaded in `select`.
 And `list_select_related` doesn't work.
