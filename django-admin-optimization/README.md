@@ -325,3 +325,45 @@ We can see that django send the query again in `__str__` method:
 
 But in this case it happens when data was loaded in `select`.
 And `list_select_related` doesn't work.
+
+### Solution
+
+To solve this problem we should make our own form to update `Product`.
+
+Let's change `demo/products/admin.py` this way:
+
+```python
+from django.contrib import admin
+from django import forms
+from .models import Product, Category
+
+class ProductAdminForm(forms.ModelForm):
+    category = forms.ModelChoiceField(queryset=Category.objects.select_related('main_category'))
+
+    class Meta:
+        model = Product
+        fields = "__all__"
+
+
+class ProductAdmin(admin.ModelAdmin):
+    list_display = ['name', 'category']
+    list_select_related = ['category__main_category']
+    form = ProductAdminForm
+
+admin.site.register(Product, ProductAdmin)
+```
+
+- First we created our own form `ProductAdminForm`
+- Second we override `category` field and got `queryset` with related models
+- Next (`form = ProductAdminForm`) set new form in `ProductAdmin`
+
+![Admin Products Screen 9](products_9.png)
+
+Now we can see only 5 queries instead of 31.
+
+<hr>
+
+If you like this post, and It was useful for you, please put the **star** to this GitHub repository 
+and push the **eye** button to follow the new articles. 
+
+Happy coding!
