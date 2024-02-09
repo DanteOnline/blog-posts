@@ -78,7 +78,17 @@ Solved task and Examples from Ruby is for fun Book.
     - [frequency-analisis](part-3-time-for-fun/frequency_analisis.rb)
     - [task-letters-frequency-analisis](part-3-time-for-fun/task_letters_frequency_analisis.rb)
     - [task-rocket-launching](part-3-time-for-fun/task_rocket_launching.rb)
+    - [alphabet-letters](part-3-time-for-fun/alphabet_letters.rb)
+    - [task-alphabet-letters-again](part-3-time-for-fun/task_alphabet_letters_again.rb)
+    - [hash-iteration](part-3-time-for-fun/hash_iteration.rb)
+    - [task-hash-iteration](part-3-time-for-fun/task_hash_iteration.rb)
+    - [dig-method](part-3-time-for-fun/dig_method.rb)
+- [part-4-OOP](part-4-oop)
+    - [car](part-3-time-for-fun/car.rb)
+    - [task-monkey](part-3-time-for-fun/task_monkey.rb)
+    - [task-random-monkey](part-3-time-for-fun/task_random_monkey.rb)
+    - [robot](part-3-time-for-fun/robot.rb)
 
 ## Current point
 
-Page 232. HashSet
+Page 267. Show robots
