@@ -84,11 +84,23 @@ Solved task and Examples from Ruby is for fun Book.
     - [task-hash-iteration](part-3-time-for-fun/task_hash_iteration.rb)
     - [dig-method](part-3-time-for-fun/dig_method.rb)
 - [part-4-OOP](part-4-oop)
-    - [car](part-3-time-for-fun/car.rb)
-    - [task-monkey](part-3-time-for-fun/task_monkey.rb)
-    - [task-random-monkey](part-3-time-for-fun/task_random_monkey.rb)
-    - [robot](part-3-time-for-fun/robot.rb)
+    - [car](part-4-oop/car.rb)
+    - [task-monkey](part-4-oop/task_monkey.rb)
+    - [task-random-monkey](part-4-oop/task_random_monkey.rb)
+    - [robot](part-4-oop/robot.rb)
+    - [show-robots](part-4-oop/show_robots.rb)
+    - [task-show-robots](part-4-oop/task_show_robots.rb)
+    - [duck-typing](part-4-oop/duck_typing.rb)
+    - [duck-typing-robots](part-4-oop/duck_typing_robots.rb)
+    - [task-duck-typing-3-dogs](part-4-oop/task_duck_typing_3_dogs.rb)
+    - [task-duck-typing-win](part-4-oop/task_duck_typing_win.rb)
+    - [task_inheritance](part-4-oop/task_inheritance.rb)
+    - [debugging](part-4-oop/debugging.rb)
+    - [task-read-file](part-4-oop/task_read_file.rb)
+    - [net-http](part-4-oop/net_http.rb)
+    - [save-the-world](part-4-oop/save_the_world.rb)
+    - [rvm-test](part-4-oop/rvm-test)
 
 ## Current point
 
-Page 267. Show robots
+Page 376. Testing
