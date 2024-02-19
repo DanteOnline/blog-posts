@@ -100,6 +100,7 @@ Solved task and Examples from Ruby is for fun Book.
     - [net-http](part-4-oop/net_http.rb)
     - [save-the-world](part-4-oop/save_the_world.rb)
     - [rvm-test](part-4-oop/rvm-test)
+    - [rspec_demo](part-4-oop/rspec_demo)
 
 ## Current point
 
