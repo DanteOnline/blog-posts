@@ -68,6 +68,7 @@ Whether you're a reader, contributor, or both, we invite you to be part of this 
 
 - [Learning Ruby](learning-ruby)
 - [Django Admin Optimization](django-admin-optimization)
+- [Learning Elixir](learning-elixir)
 
 ## Requirements
 
