@@ -17,7 +17,10 @@ Solved task and Examples from Elixir in action book.
     - [private-fun](part-2-language-basics/private_fun.ex)
     - [module-attributes](part2-language-basics/module_attributes.ex)
     - [type-specification](part2-language-basics/type_specification.ex)
+    - [my-project](part2-language-basics/my_project)
+- [part-3-control-flow](part-3-control-flow)
+    - [pattern-matching](part-3-control-flow/pattern_matching.ex)
 
 ## Current point
 
-Page 35. Section 2.4 Type System
+Page 102. Special form with
