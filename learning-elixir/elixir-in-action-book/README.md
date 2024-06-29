@@ -20,7 +20,12 @@ Solved task and Examples from Elixir in action book.
     - [my-project](part2-language-basics/my_project)
 - [part-3-control-flow](part-3-control-flow)
     - [pattern-matching](part-3-control-flow/pattern_matching.ex)
+    - [user-extraction](part-3-control-flow/user_extraction.ex)
+    - [natural-nums](part-3-control-flow/natural_nums.ex)
+    - [sum-list](part-3-control-flow/sum_list.ex)
+    - [sum-list-tc](part-3-control-flow/sum_list_tc.ex)
+    - [recursion-practice](part-3-control-flow/recursion_practice)
 
 ## Current point
 
-Page 102. Special form with
+Page 111. Flows
