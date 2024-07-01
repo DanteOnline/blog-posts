@@ -25,7 +25,10 @@ Solved task and Examples from Elixir in action book.
     - [sum-list](part-3-control-flow/sum_list.ex)
     - [sum-list-tc](part-3-control-flow/sum_list_tc.ex)
     - [recursion-practice](part-3-control-flow/recursion_practice)
+    - [sum-list-tc](part-3-control-flow/sum_list_tc.ex)
+    - [stream_example](part-3-control-flow/stream_example.ex)
+    - [file-practice](part-3-control-flow/file_practice)
 
 ## Current point
 
-Page 111. Flows
+Page 122. Data Abstractions
