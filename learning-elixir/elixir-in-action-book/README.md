@@ -28,7 +28,10 @@ Solved task and Examples from Elixir in action book.
     - [sum-list-tc](part-3-control-flow/sum_list_tc.ex)
     - [stream_example](part-3-control-flow/stream_example.ex)
     - [file-practice](part-3-control-flow/file_practice)
+- [part-4-data-abstractions](part-4-data-abstractions)
+    - [todo-list](part-4-data-abstractions/todo_list)
+    - [fraction](part-4-data-abstractions/fraction)
 
 ## Current point
 
-Page 122. Data Abstractions
+Page 135. Work with hierarchical data
