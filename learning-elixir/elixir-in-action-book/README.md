@@ -34,6 +34,8 @@ Solved task and Examples from Elixir in action book.
 - [part-5-concurency-basics](part-5-concurency-basics)
     - [database-server](part-5-concurency-basics/database_server.ex)
     - [calculator](part-5-concurency-basics/calculator)
+    - [todo-server](part-5-concurency-basics/todo_server)
+    - [todo-server-name](part-5-concurency-basics/todo_server_name)
 
 ## Current point
 
