@@ -36,7 +36,9 @@ Solved task and Examples from Elixir in action book.
     - [calculator](part-5-concurency-basics/calculator)
     - [todo-server](part-5-concurency-basics/todo_server)
     - [todo-server-name](part-5-concurency-basics/todo_server_name)
+- [part-6-generalized-server-processes](part-6-generalized-server-processes)
+    - [server-process](part-6-generalized-server-processes/server_process.ex)
 
 ## Current point
 
-Page 169. Chapter 5.3.4 Complex states
+Page 185. Chapter 6.1.4 async calls support
