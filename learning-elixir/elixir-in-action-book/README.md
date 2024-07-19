@@ -38,7 +38,9 @@ Solved task and Examples from Elixir in action book.
     - [todo-server-name](part-5-concurency-basics/todo_server_name)
 - [part-6-generalized-server-processes](part-6-generalized-server-processes)
     - [server-process](part-6-generalized-server-processes/server_process.ex)
+    - [server-process-cast](part-6-generalized-server-processes/server_process_cast.ex)
+    - [todo-server](part-6-generalized-server-processes/todo_server)
 
 ## Current point
 
-Page 185. Chapter 6.1.4 async calls support
+Page 187. Chapter 6.2. GenServer
