@@ -40,7 +40,9 @@ Solved task and Examples from Elixir in action book.
     - [server-process](part-6-generalized-server-processes/server_process.ex)
     - [server-process-cast](part-6-generalized-server-processes/server_process_cast.ex)
     - [todo-server](part-6-generalized-server-processes/todo_server)
+    - [key_value_genserver](part-6-generalized-server-processes/key_value_genserver.ex)
+    - [todo-genserver](part-6-generalized-server-processes/todo_genserver)
 
 ## Current point
 
-Page 187. Chapter 6.2. GenServer
+Page 199. Chapter 7. Concurency system building
