@@ -47,4 +47,4 @@ Solved task and Examples from Elixir in action book.
 
 ## Current point
 
-Page 209. Chapter 7.3. Concurency system building
+Page 218. Chapter 7.3.5 proccess pull
