@@ -46,7 +46,9 @@ Solved task and Examples from Elixir in action book.
     - [todo](part-7-concurency-system-building/todo)
     - [persistable-todo](part-7-concurency-system-building/persistable_todo)
     - [todo-db-workers](part-7-concurency-system-building/todo_db_workers)
+- [part-8-fault-tolerance](part-8-fault-tolerance)
+    - [todo](part-8-fault-tolerance/todo)
 
 ## Current point
 
-Page 218. Chapter 7.3.5 proccess pull
+Page 227. Chapter 8.2 Exception in concurency systems
