@@ -44,6 +44,8 @@ Solved task and Examples from Elixir in action book.
     - [todo-genserver](part-6-generalized-server-processes/todo_genserver)
 - [part-7-concurency-system-building](part-7-concurency-system-building)
     - [todo](part-7-concurency-system-building/todo)
+    - [persistable-todo](part-7-concurency-system-building/persistable_todo)
+    - [todo-db-workers](part-7-concurency-system-building/todo_db_workers)
 
 ## Current point
 
