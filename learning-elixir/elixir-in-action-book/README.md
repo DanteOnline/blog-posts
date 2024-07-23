@@ -51,4 +51,4 @@ Solved task and Examples from Elixir in action book.
 
 ## Current point
 
-Page 227. Chapter 8.2 Exception in concurency systems
+Page 239. Chapter 8.3.6 Connect all processes
