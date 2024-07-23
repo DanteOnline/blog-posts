@@ -3,9 +3,9 @@ defmodule Todo.Database do
 
   @db_folder "./persist"
 
-  def start do
+  def start_link do
     IO.puts("Starting ToDo.Database")
-    GenServer.start(__MODULE__, nil, name: __MODULE__)
+    GenServer.start_link(__MODULE__, nil, name: __MODULE__)
   end
 
   def store(key, data) do
@@ -17,9 +17,9 @@ defmodule Todo.Database do
   end
 
   def init(_) do
-    {:ok, first_worker_pid} = Todo.DatabaseWorker.start('first_storage')
-    {:ok, second_worker_pid} = Todo.DatabaseWorker.start('second_storage')
-    {:ok, third_worker_pid} = Todo.DatabaseWorker.start('third_storage')
+    {:ok, first_worker_pid} = Todo.DatabaseWorker.start_link('first_storage')
+    {:ok, second_worker_pid} = Todo.DatabaseWorker.start_link('second_storage')
+    {:ok, third_worker_pid} = Todo.DatabaseWorker.start_link('third_storage')
     pids = %{
       0 => first_worker_pid,
       1 => second_worker_pid,

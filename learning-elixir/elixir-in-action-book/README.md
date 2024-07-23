@@ -51,4 +51,4 @@ Solved task and Examples from Elixir in action book.
 
 ## Current point
 
-Page 239. Chapter 8.3.6 Connect all processes
+Page 244. Chapter 9 Isolate error consequences
