@@ -48,7 +48,9 @@ Solved task and Examples from Elixir in action book.
     - [todo-db-workers](part-7-concurency-system-building/todo_db_workers)
 - [part-8-fault-tolerance](part-8-fault-tolerance)
     - [todo](part-8-fault-tolerance/todo)
+- [part-9-isolate-error-consequences](part-9-isolate-error-consequences)
+    - [todo](part-9-isolate-error-consequences/todo)
 
 ## Current point
 
-Page 244. Chapter 9 Isolate error consequences
+Page 252. Chapter 9.1.4 DatabaseWorkers registration
