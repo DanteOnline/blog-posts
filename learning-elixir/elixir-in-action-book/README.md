@@ -53,4 +53,4 @@ Solved task and Examples from Elixir in action book.
 
 ## Current point
 
-Page 252. Chapter 9.1.4 DatabaseWorkers registration
+Page 261. Chapter 9.2 Start work process dynamically
