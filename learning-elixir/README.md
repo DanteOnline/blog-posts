@@ -8,4 +8,6 @@ The main goal is to be able to create professional Elixir projects and contribut
 Posts:
 
 - [elixir-in-action-book](elixir-in-action-book)
+- [elixir-intro](elixir-intro)
+
 
