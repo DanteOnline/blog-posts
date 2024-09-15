@@ -17,8 +17,11 @@ Solved task and Examples from Introducing elixir book.
     - [ex1-drop](chapter-1-seat-comfortable/ex1-drop)
     - [ex3-combined](chapter-1-seat-comfortable/ex3-combined)
 - [chapter-3-pattern-matching](chapter-3-pattern-matching)
-    - [fn-playing](chapter-3-pattern-matching/fn_playing)
+    - [ex1-atoms](chapter-3-pattern-matching/ex1-athoms)
+    - [ex2-tuples](chapter-3-pattern-matching/ex2-tuples)
+- [chapter-4-logic-recursion](chapter-4-logic-recursion)
+    - [logic-recursion](chapter-4-logic-recursion/logic-recursion)
 
 ## Rurrent point
 
-Page 63 Chapter 4. Logic and recursion
+Page 80 Chapter 5. Interraction with human
