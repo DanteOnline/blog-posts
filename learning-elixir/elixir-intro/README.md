@@ -16,7 +16,9 @@ Solved task and Examples from Introducing elixir book.
     - [fn-playing](chapter-1-seat-comfortable/fn_playing)
     - [ex1-drop](chapter-1-seat-comfortable/ex1-drop)
     - [ex3-combined](chapter-1-seat-comfortable/ex3-combined)
+- [chapter-3-pattern-matching](chapter-3-pattern-matching)
+    - [fn-playing](chapter-3-pattern-matching/fn_playing)
 
 ## Rurrent point
 
-Chapter 3. Athoms, tuples and pattern matching
+Page 63 Chapter 4. Logic and recursion
