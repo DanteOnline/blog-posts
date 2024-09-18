@@ -21,7 +21,9 @@ Solved task and Examples from Introducing elixir book.
     - [ex2-tuples](chapter-3-pattern-matching/ex2-tuples)
 - [chapter-4-logic-recursion](chapter-4-logic-recursion)
     - [logic-recursion](chapter-4-logic-recursion/logic-recursion)
+- [chapter-5-human-interraction](chapter-5-human-interraction)
+    - [planemo](chapter-5-human-interraction/planemo)
 
 ## Rurrent point
 
-Page 80 Chapter 5. Interraction with human
+Page 92 Chapter 6. Lists
