@@ -23,7 +23,12 @@ Solved task and Examples from Introducing elixir book.
     - [logic-recursion](chapter-4-logic-recursion/logic-recursion)
 - [chapter-5-human-interraction](chapter-5-human-interraction)
     - [planemo](chapter-5-human-interraction/planemo)
+- [chapter-6-lists](chapter-6-lists)
+    - [overall](chapter-6-lists/overall)
+    - [pascal-triangle](chapter-6-lists/pascal_triangle)
+- [chapter-7-hashmaps](chapter-7-hashmaps)
+    - [fall-velocity-struct](chapter-7-hashmaps/fall-velocity-struct)
 
 ## Rurrent point
 
-Page 92 Chapter 6. Lists
+Page 119 Chapter 8. High order functions and list generators
