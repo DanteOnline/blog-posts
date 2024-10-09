@@ -28,9 +28,12 @@ Solved task and Examples from Introducing elixir book.
     - [pascal-triangle](chapter-6-lists/pascal_triangle)
 - [chapter-7-hashmaps](chapter-7-hashmaps)
     - [fall-velocity-struct](chapter-7-hashmaps/fall-velocity-struct)
-- [chapter-8-higher-order-functions](chapter-7-hashmaps)
+- [chapter-8-higher-order-functions](chapter-8-higher-order-functions)
     - [hof](chapter-8-higher-order-functions/hof)
+- [chapter-9-processes](chapter-9-processes)
+    - [bounce](chapter-9-processes/bounce)
+    - [drop](chapter-9-processes/drop)
 
 ## Rurrent point
 
-Page 130 Chapter 9. Processes
+Page 153 Chapter 10. exceptions, errors and debugging
