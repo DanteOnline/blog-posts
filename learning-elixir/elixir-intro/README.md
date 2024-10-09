@@ -28,7 +28,9 @@ Solved task and Examples from Introducing elixir book.
     - [pascal-triangle](chapter-6-lists/pascal_triangle)
 - [chapter-7-hashmaps](chapter-7-hashmaps)
     - [fall-velocity-struct](chapter-7-hashmaps/fall-velocity-struct)
+- [chapter-8-higher-order-functions](chapter-7-hashmaps)
+    - [hof](chapter-8-higher-order-functions/hof)
 
 ## Rurrent point
 
-Page 119 Chapter 8. High order functions and list generators
+Page 130 Chapter 9. Processes
