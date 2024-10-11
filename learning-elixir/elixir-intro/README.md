@@ -35,7 +35,9 @@ Solved task and Examples from Introducing elixir book.
     - [drop](chapter-9-processes/drop)
 - [chapter-10-exceptions](chapter-10-exceptions)
     - [drop](chapter-10-exceptions/drop)
-
+- [chapter-11-testing](chapter-11-testing)
+    - [drop](chapter-11-testing/drop)
+    
 ## Rurrent point
 
-Page 153 Chapter 10. exceptions, errors and debugging
+Page 174 Chapter 12. Data storages
