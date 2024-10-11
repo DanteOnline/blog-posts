@@ -37,7 +37,9 @@ Solved task and Examples from Introducing elixir book.
     - [drop](chapter-10-exceptions/drop)
 - [chapter-11-testing](chapter-11-testing)
     - [drop](chapter-11-testing/drop)
+- [chapter-12-data-storages](chapter-12-data-storages)
+    - [drop](chapter-12-data-storages/drop)
     
 ## Rurrent point
 
-Page 174 Chapter 12. Data storages
+Page 192 Chapter 12. Mnesia
