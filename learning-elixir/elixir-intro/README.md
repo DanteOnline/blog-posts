@@ -33,6 +33,8 @@ Solved task and Examples from Introducing elixir book.
 - [chapter-9-processes](chapter-9-processes)
     - [bounce](chapter-9-processes/bounce)
     - [drop](chapter-9-processes/drop)
+- [chapter-10-exceptions](chapter-10-exceptions)
+    - [drop](chapter-10-exceptions/drop)
 
 ## Rurrent point
 
