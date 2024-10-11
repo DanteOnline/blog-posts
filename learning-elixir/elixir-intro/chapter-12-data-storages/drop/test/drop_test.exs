@@ -1,9 +1,7 @@
 defmodule DropTest do
   use ExUnit.Case
 
-  test "get velocity" do
-
-    name = :fall_storage
+  def get_velocity_storage(storage, name) do
 
     input_data = [
       {:mercury, 3.7, 4878, 57.9},
@@ -22,12 +20,12 @@ defmodule DropTest do
       {:eris, 0.8, 2400, 10210.0}
     ]
 
-    planemos = Enum.map(input_data, &Storage.tuple_to_planemo(&1))
-    Storage.create(name, planemos)
+    planemos = Enum.map(input_data, &storage.tuple_to_planemo(&1))
+    storage.create(name, planemos)
 
-    assert 0.8 == Storage.get_gravity(:eris, name)
+    assert 0.8 == storage.get_gravity(:eris, name)
 
-    storage_pid = spawn(Storage, :get_gravity, [])
+    storage_pid = spawn(storage, :get_gravity, [])
 
     drop_pid = spawn(Drop, :get_velocity, [storage_pid, name])
 
@@ -43,9 +41,17 @@ defmodule DropTest do
       {:ok, velocity} -> assert 51.96152422706632 == velocity
     end
 
-    Storage.delete(name)
+    storage.delete(name)
     assert true
 
+  end
+
+  test "get velocity" do
+    get_velocity_storage(Storage, :fall_storage)
+  end
+
+  test "get velocity mnesia" do
+    get_velocity_storage(MnesiaStorage, :fall_storage_mnesia)
   end
 
 end

@@ -42,4 +42,4 @@ Solved task and Examples from Introducing elixir book.
     
 ## Rurrent point
 
-Page 192 Chapter 12. Mnesia
+Page 199 Chapter 13. OTP Basics

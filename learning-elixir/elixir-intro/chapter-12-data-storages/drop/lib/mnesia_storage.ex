@@ -1,17 +1,25 @@
-defmodule Storage do
+defmodule MnesiaStorage do
   require Planemo
 
   def create(name \\ :planemos, planemos \\ []) do
-    :ets.new(name, [:named_table, {:keypos, Planemo.planemo(:name) + 1}])
-    Enum.map(planemos, &Storage.add(name, &1))
+    :mnesia.start()
+    :mnesia.create_table(name, [{:attributes,
+    [:name, :gravity, :diameter, :distance_from_sun]},
+    {:record_name, :planemo}])
+    Enum.map(planemos, &MnesiaStorage.add(name, &1))
   end
 
   def add(name \\ :planemos, planemo) do
-    :ets.insert(name, planemo)
+    f = fn ->
+      :mnesia.write(name, planemo, :write)
+    end
+    :mnesia.transaction(f)
   end
 
   def delete(name \\ :planemos) do
-    :ets.delete(name)
+    # :ets.delete(name)
+    :mnesia.delete_table(name)
+    :mnesia.stop()
   end
 
   def count(name \\ :planemos) do
@@ -19,19 +27,21 @@ defmodule Storage do
   end
 
   def get(planemo_name, name \\ :planemos) do
-    [record] = :ets.lookup(name, planemo_name)
+    #[record] = :ets.lookup(name, planemo_name)
+    #record
+    {:atomic, [record]} = :mnesia.transaction(fn()->:mnesia.read(name, planemo_name) end)
     record
   end
 
   def get_gravity(planemo_name, name \\ :planemos) do
-    planemo = Storage.get(planemo_name, name)
+    planemo = MnesiaStorage.get(planemo_name, name)
     Planemo.planemo(planemo, :gravity)
   end
 
   def get_gravity() do
     receive do
       {from, name, planemo_name} -> send(
-        from, {:ok, Storage.get_gravity(planemo_name, name)}
+        from, {:ok, MnesiaStorage.get_gravity(planemo_name, name)}
       )
     end
     get_gravity()
