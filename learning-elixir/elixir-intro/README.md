@@ -39,7 +39,9 @@ Solved task and Examples from Introducing elixir book.
     - [drop](chapter-11-testing/drop)
 - [chapter-12-data-storages](chapter-12-data-storages)
     - [drop](chapter-12-data-storages/drop)
+- [chapter-13-otp](chapter-13-otp)
+    - [chapter-13-otp](chapter-13-otp/drop)
     
 ## Rurrent point
 
-Page 199 Chapter 13. OTP Basics
+Page 214 Chapter 14. Macroses
