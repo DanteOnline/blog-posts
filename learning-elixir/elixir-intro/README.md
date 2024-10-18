@@ -41,7 +41,10 @@ Solved task and Examples from Introducing elixir book.
     - [drop](chapter-12-data-storages/drop)
 - [chapter-13-otp](chapter-13-otp)
     - [chapter-13-otp](chapter-13-otp/drop)
-    
+- [chapter-14-macroses](chapter-14-macroses)
+    - [chapter-14-macroses](chapter-14-macroses/macroses)
+
+
 ## Rurrent point
 
-Page 214 Chapter 14. Macroses
+Page 222 Chapter 15. Phoenix
