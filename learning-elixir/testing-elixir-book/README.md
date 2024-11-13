@@ -11,4 +11,4 @@ Solved task and Examples from Testing Elixir book.
 ## Menu
 
 - [chapter-1-unit-tests](chapter-1-unit-tests)
-    - [soggy-waffle](chapter-1-seat-comfortable/soggy_waffle)
+    - [soggy-waffle](chapter-1-unit-tests/soggy_waffle)
