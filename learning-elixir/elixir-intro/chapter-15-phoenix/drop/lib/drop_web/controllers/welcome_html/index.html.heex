@@ -1,0 +1,16 @@
+<h1>Falling starts now!</h1>
+
+<%!-- <h1>Falling starts now!</h1>
+<%= form_for @conn, Routes.fall_path(@conn, :faller), [as: :calculation],
+fn f -> %>
+<%= select f, :planemo, @choices %>
+<%= text_input f, :distance %>
+<%= submit "Calculate" %>
+<% end %> --%>
+
+<div>
+<form method="post">
+    <input type="number" value="0" id="distance">
+    <button type="submit">Send</button>
+</form>
+</div>

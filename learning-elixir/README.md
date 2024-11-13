@@ -9,5 +9,4 @@ Posts:
 
 - [elixir-in-action-book](elixir-in-action-book)
 - [elixir-intro](elixir-intro)
-
-
+- [testing-elixir](testing-elixir-book)
