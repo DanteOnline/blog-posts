@@ -13,3 +13,4 @@ Solved task and Examples from Testing Elixir book.
 - [chapter-1-unit-tests](chapter-1-unit-tests)
     - [soggy-waffle](chapter-1-unit-tests/soggy_waffle)
     - [soggy-waffle-di](chapter-1-unit-tests/soggy_waffle_di)
+    - [soggy-waffle-params](chapter-1-unit-tests/soggy_waffle_params)

@@ -1,0 +1,4 @@
+%{
+  "ex_unit_parameterize": {:hex, :ex_unit_parameterize, "0.1.0-alpha.4", "89c25a45643d5a53b71b34ad90523d9bf9ef96543c8c6a64b6ab1da4f089587a", [:make, :mix], [], "hexpm", "1ccd62cadb4d5e8aa750505a628e07769b93802e543aa3c98d1694655377b567"},
+  "jason": {:hex, :jason, "1.4.4", "b9226785a9aa77b6857ca22832cffa5d5011a667207eb2a0ad56adb5db443b8a", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "c5eb0cab91f094599f94d55bc63409236a8ec69a21a67814529e8d5f6cc90b3b"},
+}

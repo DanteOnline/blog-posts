@@ -1,0 +1,108 @@
+defmodule SoggyWaffle.WeatherAPI.ResponseParserTest do
+  use ExUnit.Case
+  import ExUnitParameterize
+  alias SoggyWaffle.WeatherAPI.ResponseParser
+  alias SoggyWaffle.Weather
+
+  @thunderstorm_ids {
+    "thunderstorm",
+    [200, 201, 202, 210, 211, 212, 221, 230, 231, 232]
+  }
+  @drizzle_ids {"drizzle", [300, 301, 302, 310, 311, 312, 313, 314, 321]}
+  @rain_id_list [500, 501, 502, 503, 504, 511, 520, 521, 522, 531]
+  @rain_ids {"rain", @rain_id_list}
+
+  describe "parser_response/1" do
+
+    setup do
+      response_as_string = File.read!("test/support/weather_api_response.json")
+      response_as_map = Jason.decode!(response_as_string)
+      %{weather_data: response_as_map}
+    end
+
+    test "success: accepts a valid payload, return a list of structs",
+      %{weather_data: weather_data} do
+
+      assert {:ok, parsed_response} = ResponseParser.parse_response(weather_data)
+
+      for weather_record <- parsed_response do
+        assert match?(
+          %Weather{datetime: %DateTime{}, rain?: _rain},
+          weather_record
+        )
+        assert is_boolean(weather_record.rain?)
+      end
+    end
+
+    for {condition, ids} <- [@thunderstorm_ids, @drizzle_ids, @rain_ids] do
+      test "success: recognizes #{condition} as a rainy condition" do
+        now_unix = DateTime.utc_now() |> DateTime.to_unix()
+        for id <- unquote(ids) do
+          record = %{"dt" => now_unix, "weather" => [%{"id" => id}]}
+
+          assert {:ok, [weather_struct]} = ResponseParser.parse_response(%{"list" => [record]})
+
+          assert weather_struct.rain? == true, "Expected weather id (#{id}) to be a rain condition"
+        end
+      end
+    end
+
+    test "success: returns rain?: false for any other id codes" do
+      {_, thunderstorm_ids} = @thunderstorm_ids
+      {_, drizzle_ids} = @drizzle_ids
+      {_, rain_ids} = @rain_ids
+      all_rain_ids = thunderstorm_ids ++ drizzle_ids ++ rain_ids
+      now_unix = DateTime.utc_now() |> DateTime.to_unix()
+
+      for id <- 100..900, id not in all_rain_ids do
+        record = %{"dt" => now_unix, "weather" => [%{"id" => id}]}
+
+        assert {:ok, [weather_struct]} = ResponseParser.parse_response(%{"list" => [record]})
+
+        assert weather_struct.rain? == false, "Expected weather id (#{id}) to NOT be a rain condition"
+      end
+    end
+
+    parameterized_test "success: returns rain?: false for any other id codes parametrized", [
+      [:id, :expected],
+      [500, true],
+      [501, true],
+      [666, false]
+    ] do
+      now_unix = DateTime.utc_now() |> DateTime.to_unix()
+      record = %{"dt" => now_unix, "weather" => [%{"id" => id}]}
+      assert {:ok, [weather_struct]} = ResponseParser.parse_response(%{"list" => [record]})
+      assert weather_struct.rain? == expected, "Expected weather id (#{id}) to NOT be a rain condition"
+    end
+
+    test "error: returns error if weather data is malformed" do
+      malformed_day = %{
+        "dt" => 1_574_359_200,
+        "weather" => [
+          %{
+            "wrong_key" => 1
+          }
+        ]
+      }
+      almost_correct_response = %{"list" => [malformed_day]}
+
+      assert {:error, :response_format_invalid} = ResponseParser.parse_response(almost_correct_response)
+    end
+
+    test "error: returns error if timestamp is missing" do
+      malformed_day = %{
+        # wrong_key
+        "datetime" => 1_574_359_200,
+        "weather" => [
+          %{
+            "main" => 1
+          }
+        ]
+      }
+
+      almost_correct_response = %{"list" => malformed_day}
+
+      assert {:error, :response_format_invalid} = ResponseParser.parse_response(almost_correct_response)
+    end
+  end
+end
